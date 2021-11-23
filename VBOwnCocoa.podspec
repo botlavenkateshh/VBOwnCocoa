@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'This project will add a done button on your UITextField and UITextView. Just import and trun on the accesory.'
                        DESC
 
-  s.homepage         = 'https://github.com/Venkateshh Botla/VBOwnCocoa'
+  s.homepage         = 'https://github.com/botlavenkateshh/VBOwnCocoa'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Venkateshh Botla' => 'botlavenkateshh@gmail.com' }

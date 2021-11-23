@@ -2,7 +2,7 @@
 //  VBOwnCocoa.swift
 //  VBOwnCocoa
 //
-//  Created by Asset Telematics on 24/11/21.
+//  Created by Venkatesh Botla on 24/11/21.
 // 
 
 import Foundation

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F4CADBBA2D25B727474D35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		02F4CADBBA2D25B727474D35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1680EC8A551731F5E5334C78 /* Pods-VBOwnCocoa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBOwnCocoa_Tests.release.xcconfig"; path = "Target Support Files/Pods-VBOwnCocoa_Tests/Pods-VBOwnCocoa_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* VBOwnCocoa_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBOwnCocoa_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8E2B0040A8AE3F1A8528AC01 /* Pods-VBOwnCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBOwnCocoa_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VBOwnCocoa_Tests/Pods-VBOwnCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		97B6FECCA98371AF89CA0DDD /* VBOwnCocoa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VBOwnCocoa.podspec; path = ../VBOwnCocoa.podspec; sourceTree = "<group>"; };
+		97B6FECCA98371AF89CA0DDD /* VBOwnCocoa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VBOwnCocoa.podspec; path = ../VBOwnCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B74B5F2849B2B53D8E1DD54A /* Pods-VBOwnCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBOwnCocoa_Example.debug.xcconfig"; path = "Target Support Files/Pods-VBOwnCocoa_Example/Pods-VBOwnCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BFFACA5E4236DA975EA2CDE0 /* Pods_VBOwnCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VBOwnCocoa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E389F38DB54FD6BC543A4107 /* Pods_VBOwnCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VBOwnCocoa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6157BA4371C66808787800D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F6157BA4371C66808787800D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F82D76BEA4CACCC9E8028C80 /* Pods-VBOwnCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBOwnCocoa_Example.release.xcconfig"; path = "Target Support Files/Pods-VBOwnCocoa_Example/Pods-VBOwnCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				8E2B0040A8AE3F1A8528AC01 /* Pods-VBOwnCocoa_Tests.debug.xcconfig */,
 				1680EC8A551731F5E5334C78 /* Pods-VBOwnCocoa_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - VBOwnCocoa (0.1.0)
+
+DEPENDENCIES:
+  - VBOwnCocoa (from `../`)
+
+EXTERNAL SOURCES:
+  VBOwnCocoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VBOwnCocoa: bf281ae0b324b30db0e802a86a23d5e5e8c8b3eb
+
+PODFILE CHECKSUM: 3ae3cdfcd5e83bfbe6e959948d46dc62085476ed
+
+COCOAPODS: 1.10.1

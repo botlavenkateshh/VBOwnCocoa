@@ -1,0 +1,6 @@
+framework module Pods_VBOwnCocoa_Example {
+  umbrella header "Pods-VBOwnCocoa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

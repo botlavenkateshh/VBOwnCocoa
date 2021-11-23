@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VBOwnCocoa_Example' do
+  pod 'VBOwnCocoa', :path => '../'
+
+  target 'VBOwnCocoa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
